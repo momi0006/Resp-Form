@@ -11,9 +11,9 @@
 .masthead{
     text-transform: uppercase;
     font-family: 'Source Serif Pro', serif;
-    position: absolute;
+    /**position: absolute;
     top: 0;
-    left: 0;
+    left: 0; **/
     height: 13em;
     width: 100%;
     background: url("../img/header.png") no-repeat;
@@ -32,11 +32,9 @@ h1{
 }
 
 main.content{
-    padding-top: 16em;
+   /*padding-top: 16em; */
 }
-main.content form{
-    margin-top: 13em;
-}
+
 
 .box{
     margin-bottom: 1rem;
