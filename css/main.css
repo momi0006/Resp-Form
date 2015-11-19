@@ -15,15 +15,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 13rem;
-    line-height: 13rem;
-    background: url("../img/header.png") no-repeat;
+    background: red url("../img/header.png") no-repeat;
     background-size: cover;
     color: #ffffff;
 }
 h1{
     padding-left: 5%;
     font-size: 2rem;
+    min-height: 13rem;
+    line-height: 13rem;
 }
 
 .container{
