@@ -11,11 +11,7 @@
 
 .masthead{
     text-transform: uppercase;
-    font-family: 'Source Serif Pro', serif;
-    /**position: absolute;
-    top: 0;
-    left: 0; **/
-    height: 13em;
+    font-family: 'Source Serif Pro', serif;    
     width: 100%;
     background: url("../img/header.png") no-repeat;
     background-size: cover;
@@ -24,12 +20,12 @@
 h1{
     padding-left: 5%;
     font-size: 2rem;
-    min-height: 13em;
-    line-height: 13em;
+    min-height: 3em;
+    line-height: 3em;
 }
 
 main.content{
-   /*padding-top: 16em; */
+   padding-top: 3.5em;
 }
 
 
@@ -42,7 +38,7 @@ label{
     display: none;
 }
 
-.sm{
+.text-width{
     width: 100%;
     border: 1px solid black;
     padding: 8px 8px;
@@ -72,11 +68,11 @@ input[type="submit"]:hover{
         display: block;
     }
     
-    .md{
+    .text-width{
         width: 90%;
     }
     h1{
-        font-size: 3.9rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -90,11 +86,11 @@ input[type="submit"]:hover{
         display: block;
     }
     
-    .lg{
+    .text-width{
         width: 90%;
     }
     h1{
-        font-size: 3.9rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -110,7 +106,7 @@ input[type="submit"]:hover{
         width: 15%;
     }
     
-    .xl{
+    .text-width{
         width: 78%;
     }
     
@@ -118,7 +114,7 @@ input[type="submit"]:hover{
          padding: 8px 30px;
     }
     h1{
-        font-size: 3.9rem;
+        font-size: 3.5rem;
     }
     
 }
