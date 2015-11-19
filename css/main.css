@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.masthead{
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 13rem;
+    line-height: 13rem;
+    background: url("../img/header.png") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+h1{
+    padding-left: 5%;
+    font-size: 2rem;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    margin-top: 16rem;
+}
+
+.box{
+    margin-bottom: 1rem;
+}
+
+label{
+    display: none;
+}
+
+.sm{
+    width: 100%;
+    border: 1px solid black;
+    padding: 8px 8px;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    background: transparent;
+    border: 2px solid black;
+    padding: 7px 22px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background: cadetblue;
+    color: #ffffff;
+}
+
+@media all and (min-width: 600px) and (max-width: 799px){    
+    .box{
+        width: 50%;
+        float: left;
+    }
+    
+    label{
+        display: block;
+    }
+    
+    .md{
+        width: 90%;
+    }
+    h1{
+        font-size: 3.9rem;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1199px){
+    .box{
+        width: 50%;
+        float: left;
+    }
+    
+    label{
+        display: block;
+    }
+    
+    .lg{
+        width: 90%;
+    }
+    h1{
+        font-size: 3.9rem;
+    }
+}
+
+@media all and (min-width: 1100px){
+    .box{
+        float: left;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    
+    label{
+        display: inline-block;
+        width: 15%;
+    }
+    
+    .xl{
+        width: 78%;
+    }
+    
+    input[type="submit"]{
+         padding: 8px 30px;
+    }
+    h1{
+        font-size: 3.9rem;
+    }
+    
+}
